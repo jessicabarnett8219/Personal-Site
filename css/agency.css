@@ -114,6 +114,21 @@ img::-moz-selection {
   color: #00d4d4;
 }
 
+#mainNav .navbar-brand {
+    font-size: 1.25em;
+    /* -webkit-transition: all 0.3s;
+    transition: all 0.3s; */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s .5s, opacity .5s linear;
+  }
+
+#mainNav.navbar-shrink .navbar-brand {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: white;
 }
@@ -139,12 +154,12 @@ img::-moz-selection {
     border: none;
     background-color: transparent;
   }
-  #mainNav .navbar-brand {
+  /* #mainNav .navbar-brand {
     font-size: 1.25em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     visibility: hidden;
-  }
+  } */
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
@@ -157,6 +172,8 @@ img::-moz-selection {
     font-size: 1.25em;
     padding: 12px 0;
     visibility: visible;
+    opacity: 1;
+    transition: opacity .5s linear;
   }
 }
 
@@ -174,19 +191,30 @@ header.masthead .intro-text {
   padding-bottom: 100px;
 }
 
+header.masthead .btn-l {
+    margin-bottom: 15px;
+}
+
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 30px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   color:#00d4d4;
 }
 
 header.masthead .intro-text .intro-heading {
   font-size: 55px;
-  /* font-weight: 700; */
-  line-height: 50px;
-  margin-bottom: 15px;
+  line-height: 60px;
+  margin-bottom: 5px;
 }
+
+header.masthead .intro-text .intro-title {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    color: #bebebe;
+  }
+/* ############### */
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -211,7 +239,6 @@ header.masthead .intro-text .intro-heading {
     line-height: 40px;
     margin-bottom: 50px;
     color: #bebebe;
-
   }
 }
 

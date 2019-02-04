@@ -53,9 +53,20 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+/* ######## FOR DEBUGGING */
+
+/* .about-outer {
+    border: 1px solid purple;
+}
+
+.about-inner {
+    border: 1px solid green;
+} */
+
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 75px 0;
+    min-height: 100vh;
   }
 }
 

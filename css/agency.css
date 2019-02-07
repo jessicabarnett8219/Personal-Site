@@ -19,6 +19,7 @@ a {
 
 a:hover {
   color: #00d4d4;
+  text-decoration: none;
 }
 
 .text-primary {
@@ -257,22 +258,6 @@ header.masthead .intro-text .intro-title {
   text-transform: none;
 }
 
-/* .about-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  align-content: center;
-}
-
-.about-container-text {
-  flex: 0 1 auto;
-}
-
-.about-container-img {
-  flex: 0 0 288px;
-} */
-
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -426,6 +411,11 @@ header.masthead .intro-text .intro-title {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+.portfolio-image {
+  max-width: 200px;
+  height: auto;
 }
 
 .timeline {

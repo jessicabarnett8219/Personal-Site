@@ -53,16 +53,6 @@ section h3.section-subheading {
   text-transform: none;
 }
 
-/* ######## FOR DEBUGGING */
-
-/* .about-outer {
-    border: 1px solid purple;
-}
-
-.about-inner {
-    border: 1px solid green;
-} */
-
 @media (min-width: 768px) {
   section {
     padding: 75px 0;
@@ -78,6 +68,10 @@ section h3.section-subheading {
   font-size: 16px;
   padding: 12px 30px;
   font-weight: 300;
+}
+
+.btn-m {
+  padding: 7px 20px;
 }
 
 .btn-primary {
@@ -156,6 +150,12 @@ img::-moz-selection {
   color: white;
 }
 
+.nav-icon {
+    color: #00d4d4;
+}
+
+
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -165,12 +165,7 @@ img::-moz-selection {
     border: none;
     background-color: transparent;
   }
-  /* #mainNav .navbar-brand {
-    font-size: 1.25em;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    visibility: hidden;
-  } */
+
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
@@ -185,6 +180,10 @@ img::-moz-selection {
     visibility: visible;
     opacity: 1;
     transition: opacity .5s linear;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -258,6 +257,22 @@ header.masthead .intro-text .intro-title {
   text-transform: none;
 }
 
+/* .about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.about-container-text {
+  flex: 0 1 auto;
+}
+
+.about-container-img {
+  flex: 0 0 288px;
+} */
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -278,7 +293,7 @@ header.masthead .intro-text .intro-title {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background:#00d4d4;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {

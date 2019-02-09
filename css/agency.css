@@ -412,10 +412,33 @@ header.masthead .intro-text .intro-title {
   height: auto;
 }
 
-/* .section-contact {
-  background-color: black;
-  color: white;
-} */
+/* TECH ICONS GRID */
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tool-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tool-container img {
+  width: 50px;
+}
+
+@media (min-width: 767px) {
+  .tools {
+    justify-content: space-between;
+  }
+
+  .tool-container img {
+    width: 100px;
+  }
+
+}
 
 footer {
   padding: 25px 0;

@@ -37,7 +37,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -252,6 +252,8 @@ header.masthead .intro-text .intro-title {
   }
 }
 
+/* ABOUT */
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -408,7 +410,7 @@ header.masthead .intro-text .intro-title {
 }
 
 .portfolio-image {
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
 }
 

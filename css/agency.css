@@ -37,7 +37,7 @@ h6 {
 }
 
 ul {
-  list-style: none;
+  list-style-type: disc;
 }
 
 section {
@@ -447,6 +447,12 @@ header.masthead .intro-text .intro-title {
   }
 
 }
+
+/* RESUME */
+
+/* #resume ul {
+  list-style: disc outside none;
+} */
 
 /* CONTACT */
 

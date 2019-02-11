@@ -26,6 +26,11 @@ a:hover {
   color: #00d4d4 !important;
 }
 
+#logo {
+  font-weight: 700;
+  font-family: 'Gothic A1', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -76,20 +81,34 @@ section h3.section-subheading {
   font-weight: 300;
 }
 
-.btn-m {
+/* .btn-m {
   padding: 7px 20px;
-}
+} */
 
-.btn-primary {
-  background-color: transparent;
-  border-color: #00d4d4;
+.btn-primary, .btn-primary:active {
+  background-color: transparent !important;
+  border-color: #00d4d4 !important;
   color: #00d4d4;
   border-width: 2px;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+
+.btn-primary-solid, .btn-primary-solid:active{
+  background-color: black !important;
+  border-color: black !important;
+  color: #00d4d4;
+  border-width: 2px;
+}
+
+.btn-primary:focus, .btn-primary:hover {
   background-color: transparent !important;
   border-color: white !important;
+  color: white;
+}
+
+.btn-primary-solid:focus, .btn-primary-solid:hover {
+  background-color: black !important;
+  border-color: black !important;
   color: white;
 }
 
@@ -159,6 +178,7 @@ img::-moz-selection {
 .nav-icon {
   color: #00d4d4;
 }
+
 
 
 
@@ -456,7 +476,7 @@ header.masthead .intro-text .intro-title {
 
 /* CONTACT */
 
-.contact-container {
+/* .contact-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -464,6 +484,10 @@ header.masthead .intro-text .intro-title {
 
 .contact-icon {
   width: 50px;
+} */
+
+.contact-container {
+  font-size: 20px;
 }
 
 footer {

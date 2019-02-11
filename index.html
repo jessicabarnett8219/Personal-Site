@@ -16,7 +16,10 @@
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
-  <link href="https://fonts.googleapis.com/css?family=Gothic+A1:700|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
@@ -28,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Jessica Barnett</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" id="logo">Jessica Barnett</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars fa-2x"></i>
@@ -63,7 +66,8 @@
         <div class="intro-heading">Jessica Barnett</div>
         <div class="intro-title">a software developer in Nashville, TN</div>
         <a class="btn btn-primary btn-l js-scroll-trigger mr-3" href="#portfolio">View Portfolio</a>
-        <a class="btn btn-primary btn-l js-scroll-trigger" href="#">Download Resume</a>
+        <a class="btn btn-primary btn-l js-scroll-trigger" href="/images/JessicaBarnett_Resume2.pdf" target="_blank">Download
+          Resume</a>
       </div>
     </div>
   </header>
@@ -232,9 +236,21 @@
                 <h6 class="text-muted mb-0">Nashville Software School | 2018-2019</h6>
               </div>
               <div class="experience-description">
-                <p class="mb-0">Intensive full-time 6-month software development bootcamp focusing on full stack
-                  (Python/Django)
-                  development fundamentals and problem solving</p>
+                <ul class="pl-4 mt-2">
+                  <li>Intensive full-time 6-month software development bootcamp focusing on full stack
+                    (Python/Django)
+                    development fundamentals and problem solving</li>
+                  <li>Built a personal contacts application using highly-modularized Vanilla Javascript code bundled
+                    with Browserify</li>
+                  <li>Developed a flat data structure using an entity relationship diagram with a group before building
+                    the messaging component of a personal dashboard application with JavaScript and jQuery. Utilized
+                    Grunt as a task runner for bundling and linting</li>
+                  <li>Created an itinerary builder application with a group. Individually responsible for the
+                    restaurant module which collected user input, leveraged JSON Server to ping an external API,
+                    displayed search results in the DOM, and saved the user’s choices</li>
+                  <li>Created a single-page kennel tracker app using React to achieve CRUD functionality and React
+                    Router to dynamically route users to various detail pages</li>
+                </ul>
               </div>
             </li>
 
@@ -273,8 +289,11 @@
                 <ul class="pl-4 mt-2">
                   <li>Executed promotional strategy, invitation design, ticket processing and event planning for the
                     Bishop’s Barbecue fundraiser, which grossed $45,000 in donations and sponsorships</li>
-                    <li>Managed the agency’s database of 10,000+ donors using DonorPerfect CRM software, processed gifts and distributed individualized donation acknowledgement letters</li>
-                    <li>Developed all visual communication for the agency including email marketing using Emma, direct mail pieces and social media graphics using the Adobe Creative Suite, and website design using Wordpress CMS</li>
+                  <li>Managed the agency’s database of 10,000+ donors using DonorPerfect CRM software, processed gifts
+                    and distributed individualized donation acknowledgement letters</li>
+                  <li>Developed all visual communication for the agency including email marketing using Emma, direct
+                    mail pieces and social media graphics using the Adobe Creative Suite, and website design using
+                    Wordpress CMS</li>
                 </ul>
               </div>
             </li>
@@ -286,10 +305,13 @@
               </div>
               <div class="experience-description">
                 <ul class="pl-4 mt-2">
-                  <li>Conceptualized and designed a healthcare education booklet which increased the health insurance literacy of newly-insured consumers</li>
-                  <li>Developed expert-level knowledge on healthcare reform via in-person training and individual learning in order to advise marketing leads on campaign strategy</li>
-                  <li>Strengthened the program’s financial counseling service by providing financial counselors with cost saving guidance for their newly-insured clients</li>
-                  </ul>
+                  <li>Conceptualized and designed a healthcare education booklet which increased the health insurance
+                    literacy of newly-insured consumers</li>
+                  <li>Developed expert-level knowledge on healthcare reform via in-person training and individual
+                    learning in order to advise marketing leads on campaign strategy</li>
+                  <li>Strengthened the program’s financial counseling service by providing financial counselors with
+                    cost saving guidance for their newly-insured clients</li>
+                </ul>
 
               </div>
             </li>
@@ -300,27 +322,30 @@
                 <h6 class="text-muted mb-0">United Way of Metro Nashville | 2013</h6>
               </div>
               <div class="experience-description">
-                  <ul class="pl-4 mt-2">
-                    <li>Refreshed the branding and website design for the Bank On Music City Program by leveraging input from existing clients and corporate partners</li>
-                    <li>Supported marketing leads in copywriting for the 2014 Volunteer Income Tax Assistance marketing campaign, resulting in a 13% increase from the previous year’s program participation</li>
-                    <li>Revamped the My Money Nashville initiative by creating My Money Guide, a community resource directory, which received positive feedback from community partners</li>
-                  </ul>
+                <ul class="pl-4 mt-2">
+                  <li>Refreshed the branding and website design for the Bank On Music City Program by leveraging input
+                    from existing clients and corporate partners</li>
+                  <li>Supported marketing leads in copywriting for the 2014 Volunteer Income Tax Assistance marketing
+                    campaign, resulting in a 13% increase from the previous year’s program participation</li>
+                  <li>Revamped the My Money Nashville initiative by creating My Money Guide, a community resource
+                    directory, which received positive feedback from community partners</li>
+                </ul>
               </div>
             </li>
 
-            <li class="list-group-item pl-0 bg-light pt-4 pb-4">
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4 border-bottom-0">
               <div class="experience-heading">
                 <h5>BA Strategic Communications</h5>
                 <h6 class="text-muted mb-0">Univeristy of Kentucky | 2008-2012</h6>
               </div>
             </li>
-
           </ul>
+          <div class="text-center mt-4">
+            <a href="images/JessicaBarnett_Resume2.pdf" class="btn btn-primary-solid btn-l" target="_blank">Full Resume</a>
+          </div>
         </div>
       </div>
     </div>
-
-
   </section>
 
   <!-- Contact -->
@@ -329,48 +354,12 @@
       <div class="row">
         <div class="col">
           <h2 class="section-heading text-left">Contact</h2>
-
-          <a href="mailto:jessica.barnett8219@gmail.com">
-            <div class="contact-container mt-4 mb-3">
-              <div class="contact-icon">
-                <i class="fas fa-envelope fa-2x"></i>
-              </div>
-              <div class="contact-text">
-                <p class="m-0">jessica.barnett8219@gmail.com</p>
-              </div>
+            <div class="contact-container mt-4">
+              <div class="mb-2"><a href="mailto:jessica.barnett8219@gmail.com"><i class="fas fa-envelope fa-fw mr-2"></i>jessica.barnett8219@gmail.com</a></div>
+              <div class="mb-2"><a href="tel:+5023380908"><i class="fas fa-phone fa-fw mr-2"></i>502-338-0908</a></div>
+              <div class="mb-2"><a href="https://www.linkedin.com/in/jessicacbarnett/"><i class="fab fa-linkedin fa-fw mr-2"></i>linkedin.com/li/jessicacbarnett</a></div>
+              <div class="mb-2"><a href="https://github.com/jessicabarnett8219"><i class="fab fa-github fa-fw mr-2"></i>github.com/jessicabarnett8219</a></div>
             </div>
-          </a>
-
-          <a href="tel:+5023380908">
-            <div class="contact-container mb-3">
-              <div class="contact-icon">
-                <i class="fas fa-phone fa-2x"></i>
-              </div>
-              <div class="contact-text">
-                <p class="m-0">502-338-0908</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://www.linkedin.com/in/jessicacbarnett/" target="_blank">
-            <div class="contact-container mb-3">
-              <div class="contact-icon">
-                <i class="fab fa-linkedin fa-2x"></i> </div>
-              <div class="contact-text">
-                <p class="m-0">linkedin.com/li/jessicacbarnett</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/jessicabarnett8219" target="_blank">
-            <div class="contact-container">
-              <div class="contact-icon">
-                <i class="fab fa-github fa-2x"></i> </div>
-              <div class="contact-text">
-                <p class="m-0">github.com/jessicabarnett8219</p>
-              </div>
-            </div>
-          </a>
         </div>
       </div>
     </div>
@@ -476,13 +465,52 @@
             <div class="rl"></div>
           </div>
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <div class="row">
+                  <div class="col-md">
+                    <img class="img-fluid d-block mx-auto" src="images/nutshell_thumbnail-01.png" alt="">
+                  </div>
+                  <div class="col-md">
+                    <h3 class="d-inline">Bangazon Workforce</h3>
+                    <p class="text-left mb-3 mt-3">A server-generated web aplication developed with a group using
+                      Python and Django framework and templating system. This is a Human Resources management app for a
+                      fictional company called Bangazon. I collaborated with the group to create the data models. I
+                      individually
+                      developed functionality for viewing a single employee's details in the browser and for adding a
+                      new department to the company's database through the browser. I styled the interface using
+                      Bootstrap.</p>
+                    <a href="https://github.com/blathering-barnacles/Bangazon"><i class="fab fa-github fa-2x ml-2"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <div class="row">
+            <div class="modal-body"> -->
+
+  <!-- Project Details Go Here -->
+  <!-- <div class="row">
+
                 <div class="col-md">
                   <img class="img-fluid d-block mx-auto" src="images/nutshell_thumbnail-01.png" alt="">
                 </div>
@@ -497,13 +525,14 @@
                     Bootstrap. </p>
                   <a href="https://github.com/blathering-barnacles/Bangazon"><i class="fab fa-github fa-2x ml-2"></i></a>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- Bootstrap core JavaScript -->

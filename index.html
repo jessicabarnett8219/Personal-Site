@@ -16,7 +16,10 @@
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
-  <link href="https://fonts.googleapis.com/css?family=Gothic+A1:700|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
@@ -28,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Jessica Barnett</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" id="logo">Jessica Barnett</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars fa-2x"></i>
@@ -42,13 +45,13 @@
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#technologies">Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#"><button class="btn btn-primary btn-l">Resume</button></a>
           </li>
         </ul>
       </div>
@@ -63,7 +66,8 @@
         <div class="intro-heading">Jessica Barnett</div>
         <div class="intro-title">a software developer in Nashville, TN</div>
         <a class="btn btn-primary btn-l js-scroll-trigger mr-3" href="#portfolio">View Portfolio</a>
-        <a class="btn btn-primary btn-l js-scroll-trigger" href="#services">Download Resume</a>
+        <a class="btn btn-primary btn-l js-scroll-trigger" href="/images/JessicaBarnett_Resume2.pdf" target="_blank">Download
+          Resume</a>
       </div>
     </div>
   </header>
@@ -71,8 +75,8 @@
   <!-- About -->
   <section id="about">
     <div class="container">
-      <div class="row text-left about-container">
-        <div class="col">
+      <div class="row text-left">
+        <div class="about-text col-sm-8 col-md-6 col-lg-8">
           <h2 class="section-heading text-left">About</h2>
           <p>I wrote my first line of code in an introduction to web design elective while in school for
             graphic design. When I saw my code become something visual in the browser, I was fascinated.
@@ -81,8 +85,8 @@
             to start this new career, and I went for it. Now I can’t imagine anything else I would rather
             do.</p>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <img src="images/headshot.png" class="img-fluid" alt="Jessica Barnett headhshot">
+        <div class="d-flex justify-content-center col-sm-4 col-md-6 col-lg-4 portfolio-img">
+          <img src="images/headshot.png" alt="Jessica Barnett headhshot" class="img-fluid">
         </div>
       </div>
     </div>
@@ -132,96 +136,246 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="images/workforce_thumbnail-01.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Bangazon</h4>
+            <h4>Bangazon Workforce</h4>
             <p class="text-muted">Back-End Group Project</p>
           </div>
         </div>
       </div>
     </div>
-    </div>
   </section>
 
-  <!-- Experience -->
-  <section id="experience">
+  <!-- Technologies -->
+  <section id="technologies">
     <div class="container">
       <div class="row">
         <div class="col">
-        <h2 class="section-heading">Experience</h2>
+          <h2 class="section-heading">Technologies</h2>
+        </div>
       </div>
-      </div>
+      <div class="row">
         <div class="tools text-center mt-3">
           <div class="tool-container">
-            <img src="images/tech-icons/html5-original.svg" alt="HTML 5 Logo"></img>
+            <img src="images/tech-icons/html5-original.svg" alt="HTML 5 Logo">
             <p>HTML 5</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/css3-original.svg" alt="CSS 3 Logo"></img>
+            <img src="images/tech-icons/css3-original.svg" alt="CSS 3 Logo">
             <p>CSS 3</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/javascript-yellow.svg" alt="Javascript Logo"></img>
+            <img src="images/tech-icons/javascript-yellow.svg" alt="Javascript Logo">
             <p>Javascript</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/react-blue.svg" alt="React Logo"></img>
+            <img src="images/tech-icons/react-blue.svg" alt="React Logo">
             <p>React</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/python-original.svg" alt="Python Logo"></img>
+            <img src="images/tech-icons/python-original.svg" alt="Python Logo">
             <p>Python</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/django-original.svg" alt="Django Logo"></img>
+            <img src="images/tech-icons/django-original.svg" alt="Django Logo">
             <p>Django</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/git-original.svg" alt="Git Logo"></img>
+            <img src="images/tech-icons/git-original.svg" alt="Git Logo">
             <p>Git</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/github-original.svg" alt="GitHub Logo"></img>
+            <img src="images/tech-icons/github-original.svg" alt="GitHub Logo">
             <p>GitHub</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/grunt-original.svg" alt="Grunt Logo"></img>
+            <img src="images/tech-icons/grunt-original.svg" alt="Grunt Logo">
             <p>Grunt</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/Sqlite-square-icon.svg.png" alt="SQLite Logo"></img>
+            <img src="images/tech-icons/Sqlite-square-icon.svg.png" alt="SQLite Logo">
             <p>SQLite</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/jquery-original.svg" alt="jQuery Logo"></img>
+            <img src="images/tech-icons/jquery-original.svg" alt="jQuery Logo">
             <p>jQuery</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/VSCode-icon.png" alt="Visual Studio Code Logo"></img>
+            <img src="images/tech-icons/VSCode-icon.png" alt="Visual Studio Code Logo">
             <p>VS Code</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/bootstrap-plain.svg" alt="Bootstrap Logo"></img>
+            <img src="images/tech-icons/bootstrap-plain.svg" alt="Bootstrap Logo">
             <p>Bootstrap</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/photoshop-blue.svg" alt="Photoshop Logo"></img>
+            <img src="images/tech-icons/photoshop-blue.svg" alt="Photoshop Logo">
             <p>Photoshop</p>
           </div>
           <div class="tool-container">
-            <img src="images/tech-icons/illustrator-orange.svg" alt="Illustrator Logo"></img>
+            <img src="images/tech-icons/illustrator-orange.svg" alt="Illustrator Logo">
             <p>Illustrator</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light" id="resume">
+    <div class="container">
+      <div class="row">
+
+        <div class="col">
+          <h2 class="section-heading text-left">Resume</h2>
+          <ul class="list-group list-group-flush">
+
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4 border-top-0">
+              <div class="experience-heading">
+                <div>
+                  <h5 class="">Full-Stack Software Development</h5>
+                  <h6 class="text-muted mb-0">Nashville Software School | 2018-2019</h6>
+                </div>
+                <!-- <i class="fas fa-angle-down fa-lg"></i> -->
+              </div>
+              <div class="experience-description d-none d-md-block">
+                <ul class="pl-4 mt-2">
+                  <li>Intensive full-time 6-month software development bootcamp focusing on full stack
+                    (Python/Django)
+                    development fundamentals and problem solving</li>
+                  <li>Built a personal contacts application using highly-modularized Vanilla Javascript code bundled
+                    with Browserify</li>
+                  <li>Developed a flat data structure using an entity relationship diagram with a group before building
+                    the messaging component of a personal dashboard application with JavaScript and jQuery. Utilized
+                    Grunt as a task runner for bundling and linting</li>
+                  <li>Created an itinerary builder application with a group. Individually responsible for the
+                    restaurant module which collected user input, leveraged JSON Server to ping an external API,
+                    displayed search results in the DOM, and saved the user’s choices</li>
+                  <li>Created a single-page kennel tracker app using React to achieve CRUD functionality and React
+                    Router to dynamically route users to various detail pages</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4">
+              <div class="experience-heading">
+                <div>
+                  <h5 class="">Graphic Designer</h5>
+                  <h6 class="text-muted mb-0">Freelance | 2017-2018</h6>
+                </div>
+                <!-- <i class="fas fa-angle-down fa-lg"></i> -->
+              </div>
+              <div class="experience-description d-none d-md-block">
+                <ul class="pl-4 mt-2">
+                  <li>Designed logos, print materials, business cards and web graphics informed by in-depth client
+                    surveys and industry research</li>
+                  <li>Produced designs using Adobe Photoshop, InDesign and Illustrator, Procreate digital illustration
+                    application, and Squarespace</li>
+                  <li>Developed brand guides for clients that included all fonts, colors, and logo variations used in
+                    creating their cohesive brand</li>
+                  <li>Coached clients on use of Squarespace for web content management, which allowed them to update
+                    their website content without compromising the design
+                  </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4">
+              <div class="">
+                <h5>Graphic Design Certificate</h5>
+                <h6 class="text-muted mb-0">Parsons School of Design | 2015-2017</h6>
+              </div>
+            </li>
+
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4">
+              <div class="experience-heading">
+                <div>
+                  <h5>Marketing Coordinator</h5>
+                  <h6 class="text-muted mb-0">St. Luke's Community House | 2015</h6>
+                </div>
+                <!-- <i class="fas fa-angle-down fa-lg"></i> -->
+              </div>
+              <div class="experience-description d-none d-md-block">
+                <ul class="pl-4 mt-2">
+                  <li>Executed promotional strategy, invitation design, ticket processing and event planning for the
+                    Bishop’s Barbecue fundraiser, which grossed $45,000 in donations and sponsorships</li>
+                  <li>Managed the agency’s database of 10,000+ donors using DonorPerfect CRM software, processed gifts
+                    and distributed individualized donation acknowledgement letters</li>
+                  <li>Developed all visual communication for the agency including email marketing using Emma, direct
+                    mail pieces and social media graphics using the Adobe Creative Suite, and website design using
+                    Wordpress CMS</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4">
+              <div class="experience-heading">
+                <div>
+                  <h5 class="">Health Outreach Specialist</h5>
+                  <h6 class="text-muted mb-0">United Way of Metro Nashville | 2014</h6>
+                </div>
+                <!-- <i class="fas fa-angle-down fa-lg toggle-arrow-down"></i> -->
+              </div>
+              <div class="experience-description d-none d-md-block">
+                <ul class="pl-4 mt-2">
+                  <li>Conceptualized and designed a healthcare education booklet which increased the health insurance
+                    literacy of newly-insured consumers</li>
+                  <li>Developed expert-level knowledge on healthcare reform via in-person training and individual
+                    learning in order to advise marketing leads on campaign strategy</li>
+                  <li>Strengthened the program’s financial counseling service by providing financial counselors with
+                    cost saving guidance for their newly-insured clients</li>
+                </ul>
+
+              </div>
+            </li>
+
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4">
+              <div class="experience-heading">
+                <div>
+                  <h5 class="">Marketing Coordinator</h5>
+                  <h6 class="text-muted mb-0">United Way of Metro Nashville | 2013</h6>
+                </div>
+                <!-- <i class="fas fa-angle-down fa-lg"></i> -->
+              </div>
+              <div class="experience-description d-none d-md-block">
+                <ul class="pl-4 mt-2">
+                  <li>Refreshed the branding and website design for the Bank On Music City Program by leveraging input
+                    from existing clients and corporate partners</li>
+                  <li>Supported marketing leads in copywriting for the 2014 Volunteer Income Tax Assistance marketing
+                    campaign, resulting in a 13% increase from the previous year’s program participation</li>
+                  <li>Revamped the My Money Nashville initiative by creating My Money Guide, a community resource
+                    directory, which received positive feedback from community partners</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="list-group-item pl-0 bg-light pt-4 pb-4 border-bottom-0">
+              <div class="">
+                <h5>BA Strategic Communications</h5>
+                <h6 class="text-muted mb-0">Univeristy of Kentucky | 2008-2012</h6>
+              </div>
+            </li>
+          </ul>
+          <div class="text-center mt-4">
+            <a href="images/JessicaBarnett_Resume2.pdf" class="btn btn-primary-solid btn-l" target="_blank">Full Resume</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section class="bg-light" id="contact">
+  <section id="contact">
     <div class="container">
       <div class="row">
-
+        <div class="col">
+          <h2 class="section-heading text-left">Contact</h2>
+          <div class="contact-container mt-4">
+            <div class="mb-3"><a href="mailto:jessica.barnett8219@gmail.com"><i class="fas fa-envelope fa-fw mr-2"></i>jessica.barnett8219@gmail.com</a></div>
+            <div class="mb-3"><a href="tel:+5023380908"><i class="fas fa-phone fa-fw mr-2"></i>502-338-0908</a></div>
+            <div class="mb-3"><a href="https://www.linkedin.com/in/jessicacbarnett/" target="_blank"><i class="fab fa-linkedin fa-fw mr-2"></i>linkedin.com/li/jessicacbarnett</a></div>
+            <div class="mb-3"><a href="https://github.com/jessicabarnett8219" target="_blank"><i class="fab fa-github fa-fw mr-2"></i>github.com/jessicabarnett8219</a></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -257,7 +411,7 @@
 
                 <div class="row">
                   <div class="col-md">
-                    <img class="img-fluid mx-auto" src="images/app-demo.gif" alt="" class="portfolio-image">
+                    <img class="img-fluid mx-auto portfolio-image" src="images/app-demo.gif" alt="FermentStation App Logo">
                   </div>
                   <div class="col-md">
                     <h3 class="">FermentStation</h3>
@@ -296,7 +450,7 @@
                 <!-- Project Details Go Here -->
                 <div class="row">
                   <div class="col-md">
-                    <img class="img-fluid d-block mx-auto" src="images/nutshell_thumbnail-01.png" alt="">
+                    <img class="img-fluid d-block mx-auto" src="images/nutshell_screenshot.png" alt="">
                   </div>
                   <div class="col-md">
                     <h3 class="d-inline">Nutshell</h3>
@@ -333,7 +487,7 @@
                 <!-- Project Details Go Here -->
                 <div class="row">
                   <div class="col-md">
-                    <img class="img-fluid d-block mx-auto" src="images/nutshell_thumbnail-01.png" alt="">
+                    <img class="img-fluid d-block mx-auto" src="images/workforce_employee_screenshot.png" alt="">
                   </div>
                   <div class="col-md">
                     <h3 class="d-inline">Bangazon Workforce</h3>
@@ -343,7 +497,7 @@
                       individually
                       developed functionality for viewing a single employee's details in the browser and for adding a
                       new department to the company's database through the browser. I styled the interface using
-                      Bootstrap. </p>
+                      Bootstrap.</p>
                     <a href="https://github.com/blathering-barnacles/Bangazon"><i class="fab fa-github fa-2x ml-2"></i></a>
                   </div>
                 </div>
@@ -352,25 +506,22 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
-
-
-      <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-      <!-- Plugin JavaScript -->
-      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-      <!-- Contact form JavaScript -->
-      <script src="js/jqBootstrapValidation.js"></script>
-      <script src="js/contact_me.js"></script>
-
-      <!-- Custom scripts for this template -->
-      <script src="js/agency.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
 
 </body>
 

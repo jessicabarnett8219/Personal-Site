@@ -26,6 +26,11 @@ a:hover {
   color: #00d4d4 !important;
 }
 
+#logo {
+  font-weight: 700;
+  font-family: 'Gothic A1', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -36,8 +41,12 @@ h6 {
   font-family: 'Gothic A1', sans-serif;
 }
 
+ul {
+  list-style-type: disc;
+}
+
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -57,7 +66,8 @@ section h3.section-subheading {
 @media (min-width: 768px) {
   section {
     padding: 75px 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+
   }
 }
 
@@ -71,20 +81,34 @@ section h3.section-subheading {
   font-weight: 300;
 }
 
-.btn-m {
+/* .btn-m {
   padding: 7px 20px;
-}
+} */
 
-.btn-primary {
-  background-color: transparent;
-  border-color: #00d4d4;
+.btn-primary, .btn-primary:active {
+  background-color: transparent !important;
+  border-color: #00d4d4 !important;
   color: #00d4d4;
   border-width: 2px;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+
+.btn-primary-solid, .btn-primary-solid:active{
+  background-color: black !important;
+  border-color: black !important;
+  color: #00d4d4;
+  border-width: 2px;
+}
+
+.btn-primary:focus, .btn-primary:hover {
   background-color: transparent !important;
   border-color: white !important;
+  color: white;
+}
+
+.btn-primary-solid:focus, .btn-primary-solid:hover {
+  background-color: black !important;
+  border-color: black !important;
   color: white;
 }
 
@@ -152,8 +176,9 @@ img::-moz-selection {
 }
 
 .nav-icon {
-    color: #00d4d4;
+  color: #00d4d4;
 }
+
 
 
 
@@ -194,12 +219,13 @@ header.masthead {
   background-color: black;
   background-attachment: scroll;
   font-family: 'Gothic A1', sans-serif;
-
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 header.masthead .btn-l {
@@ -222,14 +248,14 @@ header.masthead .intro-text .intro-heading {
 header.masthead .intro-text .intro-title {
     font-size: 25px;
     line-height: 35px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     color: #bebebe;
   }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    /* padding-bottom: 250px; */
   }
 
   header.masthead .intro-text .intro-lead-in {
@@ -251,6 +277,8 @@ header.masthead .intro-text .intro-title {
     color: #bebebe;
   }
 }
+
+/* ABOUT */
 
 #portfolio .portfolio-item {
   right: 0;
@@ -408,7 +436,7 @@ header.masthead .intro-text .intro-title {
 }
 
 .portfolio-image {
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
 }
 
@@ -439,6 +467,36 @@ header.masthead .intro-text .intro-title {
   }
 
 }
+
+/* RESUME */
+
+.experience-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .experience-description {
+  dis
+}
+
+@media (min-width: 992px) {
+  .experience-description {
+
+  }
+ } */
+
+
+/* CONTACT */
+
+.contact-container {
+  font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  .contact-container {
+    font-size: 1.5rem;
+  }
+ }
 
 footer {
   padding: 25px 0;

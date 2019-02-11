@@ -470,25 +470,33 @@ header.masthead .intro-text .intro-title {
 
 /* RESUME */
 
-/* #resume ul {
-  list-style: disc outside none;
-} */
+.experience-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .experience-description {
+  dis
+}
+
+@media (min-width: 992px) {
+  .experience-description {
+
+  }
+ } */
+
 
 /* CONTACT */
 
-/* .contact-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.contact-icon {
-  width: 50px;
-} */
-
 .contact-container {
-  font-size: 20px;
+  font-size: 1rem;
 }
+
+@media (min-width: 576px) {
+  .contact-container {
+    font-size: 1.5rem;
+  }
+ }
 
 footer {
   padding: 25px 0;
